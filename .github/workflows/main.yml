@@ -16,7 +16,7 @@ jobs:
   helloworld:
     name: Print Hello World
     # Describes the environment on which this job should run
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     # Different steps of this job
     steps:
       - name: hello
